@@ -1,0 +1,5 @@
+# 실행정책 확인
+Get-ExecutionPolicy -List
+
+# 현재 사용자 계정에 대해 RemoteSigned 실행정책 설정
+Set-ExecutionPolicy -ExecutionPolicy RemoteSigned -Scope CurrentUser
